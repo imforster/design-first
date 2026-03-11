@@ -12,8 +12,6 @@ import {
 } from "./game-controller";
 import { Difficulty } from "../types";
 import type { Digit, GameSession } from "../types";
-import { generate } from "./generator";
-import { solve } from "./solver";
 import { deepCloneBoard } from "../utils";
 
 /**
